@@ -4,7 +4,7 @@
 # --------------------------------------
 
 nav:
-  logo: /img/avator.jpg # 网站左上角图标
+  logo: https://pic.xiangcaiblog.top/images/2023/11/16/202311161407171.jpg # 网站左上角图标
   display_title: true # 是否显示网站标题
   fixed: false # 是否固定状态栏
 
