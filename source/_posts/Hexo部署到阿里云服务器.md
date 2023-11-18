@@ -1,8 +1,10 @@
 ---
 title: Hexo部署到阿里云服务器
 date: 2023-11-03 14:16:36
-tags: hexo
-categories: 博客搭建
+tags: 
+    - hexo
+    - 服务器
+categories: 教程
 description: 使用宝塔面板将 hexo 部署到阿里云服务器上
 swiper_index: 5 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---

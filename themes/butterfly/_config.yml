@@ -48,11 +48,11 @@ social:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/avator.jpg
+favicon: https://pic.xiangcaiblog.top/images/2023/11/16/202311161407171.jpg
 
 # Avatar (頭像)
 avatar:
-  img: /img/avator.jpg
+  img: https://pic.xiangcaiblog.top/images/2023/11/16/202311161407171.jpg
   effect: false
 
 # Disable all banner image
@@ -244,7 +244,7 @@ aside:
       link: https://github.com/JianLi2333
   card_announcement:
     enable: true
-    content: 欢迎光临香菜园！
+    content: 网站如果出现加载不出来的情况，可以多刷新几次，或者使用魔法之后刷新。等我抽空将网站资源整理一下，这种情况应该就不会出现了！！！
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

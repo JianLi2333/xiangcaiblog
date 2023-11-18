@@ -1,12 +1,12 @@
 ---
 title: 基于Butterfly的外挂标签引入
-top_img:
 cover:
+tag: 博客魔改
+categories: 教程
 highlight_shrink: false
 description: 添加大量外挂标签样式。
 date: 2020-11-14 15:55:44
 updated: 2022-04-29 15:29:37
-comments:
 ---
 {% tip home %}
 本文档为[🧊Akilarの糖果屋🍭](https://jq.qq.com/?_wv=1027&k=EF1Elvqp)出品，转载需注明出处。
@@ -142,7 +142,7 @@ comments:
   npm install hexo-renderer-kramed --save
   ```
 2. 添加配置信息，以下为写法示例
-  在站点配置文件`_config.yml`或者主题配置文件`_config.butterfly.yml`中添加
+    在站点配置文件`_config.yml`或者主题配置文件`_config.butterfly.yml`中添加
   ```yaml
   # tag-plugins-plus
   # see https://akilar.top/posts/615e2dec/
@@ -1080,7 +1080,7 @@ Butterfly_v4.0+自带的timeline外挂标签样式更加好看。语法语意也
 1. 圆角样式：rounded, circle
 2. 增加文字样式：可以在容器内增加 `<b>标题</b> `和` <p>描述文字</p>`
 3. 布局方式：
-  默认为自动宽度，适合视野内只有一两个的情况。
+    默认为自动宽度，适合视野内只有一两个的情况。
 
 |参数|含义|
 |:--|:----|
@@ -1480,12 +1480,12 @@ ghcard使用了`github-readme-stats`的API，支持直接使用markdown语法来
   {% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
 
 2. 50%宽度
-  {% videos, 2 %}
-  {% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-  {% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-  {% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-  {% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
-  {% endvideos %}
+    {% videos, 2 %}
+    {% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
+    {% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
+    {% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
+    {% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %}
+    {% endvideos %}
 
 3. 25%宽度
 
@@ -1578,8 +1578,8 @@ ghcard使用了`github-readme-stats`的API，支持直接使用markdown语法来
 
 - gallery 相册
   区别于旧版的Gallery相册,新的Gallery相册会自动根据图片长度进行排版，书写也更加方便，与markdown格式一样。可根据需要插入到相应的md。无需再自己配置长宽。**建议在粘贴时故意使用长短、大小、横竖不一的图片**，会有更好的效果。（尺寸完全相同的图片只会平铺输出，效果很糟糕）
-<!-- endtab -->
-<!-- tab 样式预览 -->
+  <!-- endtab -->
+  <!-- tab 样式预览 -->
 - gallerygroup 相册图库
 
 <div class="gallery-group-main">
@@ -1777,8 +1777,8 @@ Any content (support inline tags too).
     - 可以指定带空格或不带空格；
     - 例如'Tab caption @icon' 和 'Tab caption@icon'.
     - 可选参数。
-<!-- endtab -->
-<!-- tab 样式预览 -->
+    <!-- endtab -->
+    <!-- tab 样式预览 -->
 
 {% note primary %}
 Demo 1 - 预设选择第一个【默认】
@@ -2003,8 +2003,8 @@ group=version:v4,v3,v2
 {% folding green,Github仓库配置方案 %}
 
 1. 新建一个仓库，仓库名随意，这里我命名为`friend_link`,
-  新建文件`friend_link\.github\ISSUE_TEMPLATE.md`,
-  并在其中输入以下内容作为`issues`模板。
+    新建文件`friend_link\.github\ISSUE_TEMPLATE.md`,
+    并在其中输入以下内容作为`issues`模板。
 
   {% tip warning faa-horizontal animated fa-slow %}
   其中的json代码块前面的反斜杠记得删去。此处这么写主要是为了转义，否则无法嵌套代码块。
@@ -2068,8 +2068,8 @@ group=version:v4,v3,v2
 {% folding yellow,Gitee仓库配置方案 %}
 
 1. 新建一个仓库，仓库名随意，这里我命名为`friend_link`,
-  新建文件`friend_link\.gitee\ISSUE_TEMPLATE.md`,
-  并在其中输入以下内容作为`issues`模板。
+    新建文件`friend_link\.gitee\ISSUE_TEMPLATE.md`,
+    并在其中输入以下内容作为`issues`模板。
 
   {% tip warning faa-horizontal animated fa-slow %}
   其中的json代码块前面的反斜杠记得删去。此处这么写主要是为了转义，否则无法嵌套代码块。
@@ -2133,8 +2133,8 @@ group=version:v4,v3,v2
 <!-- tab 样式预览 -->
 
 1. 时间轴标签`timeline`渲染
-  对应的仓库`issues`链接:
-  {% link xaoxuu/timeline, https://gitee.com/xaoxuu/timeline/issues, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@master/logo/256/safari.png %}
+    对应的仓库`issues`链接:
+    {% link xaoxuu/timeline, https://gitee.com/xaoxuu/timeline/issues, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@master/logo/256/safari.png %}
 
   {% issues timeline | api=https://gitee.com/api/v5/repos/xaoxuu/timeline/issues?state=open&creator=xaoxuu&sort=created&direction=desc&page=1&per_page=100 %}
 
@@ -2161,8 +2161,8 @@ group=version:v4,v3,v2
     {% issues sites | api=https://api.github.com/repos/xaoxuu/friends/issues?sort=updated&state=open&page=1&per_page=100&labels=active %}
 
 3. 网站卡片标签`sites`分组渲染
-  这是`Volantis`主题官网的「示例博客」页面的数据：
-  对应的仓库`issues`链接:
+    这是`Volantis`主题官网的「示例博客」页面的数据：
+    对应的仓库`issues`链接:
 
   {% link 如何参与项目, https://github.com/volantis-x/examples/issues, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets@master/logo/256/safari.png %}
 
@@ -2194,7 +2194,7 @@ group=version:v4,v3,v2
     ```
 
 3. 网站卡片标签`sites`分组渲染
-  这是`Volantis`主题官网的「示例博客」页面的数据：
+    这是`Volantis`主题官网的「示例博客」页面的数据：
 
   ```markdown
   {% issues sites | api=https://api.github.com/repos/volantis-x/examples/issues?sort=updated&state=open&page=1&per_page=100 | group=version:版本：^4.0,版本：^3.0,版本：^2.0 %}
@@ -2336,31 +2336,31 @@ group=version:v4,v3,v2
 <!-- endtab -->
 <!-- tab 样式预览 -->
 1. `flip`动画效果。
-  {% wow animate__flip %}
-  {% note green 'fas fa-fan' modern%}
-  `flip`动画效果。
-  {% endnote %}
-  {% endwow %}
+    {% wow animate__flip %}
+    {% note green 'fas fa-fan' modern%}
+    `flip`动画效果。
+    {% endnote %}
+    {% endwow %}
 2. `zoomIn`动画效果，持续`5s`，延时`5s`，离底部`100`距离时启动，重复`10`次。
-  {% wow animate__zoomIn,5s,5s,100,10 %}
-  {% note blue 'fas fa-bullhorn' modern%}
-  `zoomIn`动画效果，持续`5s`，延时`5s`，离底部`100`距离时启动，重复`10`次
-  {% endnote %}
-  {% endwow %}
+    {% wow animate__zoomIn,5s,5s,100,10 %}
+    {% note blue 'fas fa-bullhorn' modern%}
+    `zoomIn`动画效果，持续`5s`，延时`5s`，离底部`100`距离时启动，重复`10`次
+    {% endnote %}
+    {% endwow %}
 3. `slideInRight`动画效果，持续`5s`，延时`5s`。
-  {% wow animate__slideInRight,5s,5s %}
-  {% note orange 'fas fa-car' modern%}
-  `slideInRight`动画效果，持续`5s`，延时`5s`。
-  {% endnote %}
-  {% endwow %}
+    {% wow animate__slideInRight,5s,5s %}
+    {% note orange 'fas fa-car' modern%}
+    `slideInRight`动画效果，持续`5s`，延时`5s`。
+    {% endnote %}
+    {% endwow %}
 4. `heartBeat`动画效果，延时`5s`，重复`10`次。
-  {% wow animate__heartBeat,,5s,,10 %}
-  {% note red 'fas fa-battery-half' modern%}
-  `heartBeat`动画效果，延时`5s`，重复`10`次。
-  {% endnote %}
-  {% endwow %}
-<!-- endtab -->
-<!-- tab 示例源码 -->
+    {% wow animate__heartBeat,,5s,,10 %}
+    {% note red 'fas fa-battery-half' modern%}
+    `heartBeat`动画效果，延时`5s`，重复`10`次。
+    {% endnote %}
+    {% endwow %}
+    <!-- endtab -->
+    <!-- tab 示例源码 -->
 1. `flip`动画效果。
   ```markdown
   {% wow animate__flip %}
@@ -2496,13 +2496,13 @@ group=version:v4,v3,v2
 {% endtip %}
 
 1. referto 引用上标
-  `id`: 上标序号内容，需与referfrom标签的id对应才能实现跳转
-  `literature`: 引用的参考文献名称
+    `id`: 上标序号内容，需与referfrom标签的id对应才能实现跳转
+    `literature`: 引用的参考文献名称
 
 2. referfrom 引用出处
-  `id`: 序号内容，需与referto标签的id对应才能实现跳转
-  `literature`: 引用的参考文献名称
-  `url`: 引用的参考文献链接，可省略
+    `id`: 序号内容，需与referto标签的id对应才能实现跳转
+    `literature`: 引用的参考文献名称
+    `url`: 引用的参考文献链接，可省略
 
 <!-- endtab -->
 <!-- tab 样式预览 -->

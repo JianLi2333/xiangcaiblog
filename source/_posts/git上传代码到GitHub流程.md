@@ -1,7 +1,7 @@
 ---
 title: git使用上传代码教程
 tag: git
-categories: 工具
+categories: 教程
 swiper_index: 2 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 # git上传代码到GitHub
