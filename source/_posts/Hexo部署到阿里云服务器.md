@@ -1,6 +1,7 @@
 ---
 title: Hexo部署到阿里云服务器
 date: 2023-11-03 14:16:36
+cover: https://pic.xiangcaiblog.top/images/2023/11/19/1700381972079.md.png
 tags: 
     - hexo
     - 服务器

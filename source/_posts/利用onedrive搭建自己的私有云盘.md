@@ -3,6 +3,8 @@ title: 利用onedrive搭建自己的私有云盘
 date: 2023-11-14 14:56:11
 tags: onedrive
 categories: 教程
+description: 百度网盘请保持距离，我怕onedrive误会！
+cover: https://pic.xiangcaiblog.top/images/2023/11/19/202311191602287.png
 ---
 
 #  利用onedrive搭建自己的私有云盘

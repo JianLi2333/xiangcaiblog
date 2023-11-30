@@ -1,6 +1,6 @@
 ---
 title: 基于Butterfly的外挂标签引入
-cover:
+cover: https://pic.xiangcaiblog.top/images/2023/11/19/202311191611932.jpg
 tag: 博客魔改
 categories: 教程
 highlight_shrink: false

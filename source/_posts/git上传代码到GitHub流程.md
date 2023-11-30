@@ -2,6 +2,8 @@
 title: git使用上传代码教程
 tag: git
 categories: 教程
+description: 不会还有人不会用git吧！
+cover: https://pic.xiangcaiblog.top/images/2023/11/19/202311191617622.png
 swiper_index: 2 #置顶轮播图顺序，非负整数，数字越大越靠前
 ---
 # git上传代码到GitHub
