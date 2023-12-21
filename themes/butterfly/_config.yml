@@ -1222,11 +1222,11 @@ categoryBar:
   column: odd # odd：3列 | even：4列
   row: 1 #显示行数，默认两行，超过行数切换为滚动显示
   message:
-    - descr: Ubuntu指南
+    - descr: 各种教学博客
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
-    - descr: 玩转Win10
+    - descr: 学习笔记
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
-    - descr: 长篇小说连载
+    - descr: 教你如何做项目
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover3.webp
     - descr: 个人日记
       cover: https://npm.elemecdn.com/akilar-candyassets/image/cover4.webp
